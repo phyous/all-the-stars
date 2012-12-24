@@ -2,7 +2,9 @@
 #include "lightController.h"
 #include "math.h"
 
+// arduino pins corresponding to leds
 int lights[] = {2,3,4,5,8,9,10,11};
+
 int lightCount = 8;
 int lightState = 0;
 LightController *lc;
